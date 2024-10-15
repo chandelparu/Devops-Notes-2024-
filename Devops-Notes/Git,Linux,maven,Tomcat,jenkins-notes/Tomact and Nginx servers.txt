@@ -29,8 +29,8 @@ you will get link by apache tomcat
 sudo wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.91/bin/apache-tomcat-9.0.91.tar.gz
 sudo tar -xvf apache-tomcat-9.0.82.tar.gz
 cd apache-tomcat-9.0.80
-sudo chmod 777 /bin
-cd /bin
+sudo chmod 777 bin/
+cd bin/
 sudo sh startup.sh
 sudo vi webapps/manager/META_INFA/contex.xml      
 	allow ".*"                          
